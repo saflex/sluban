@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <title>html</title>
+  <link href="plugins/fotorama/fotorama.css" rel="stylesheet">
+  <link href="css/bundle.css" rel="stylesheet" media="screen">
+  <script src="http://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="plugins/Bootstrap/bootstrap.js"></script>
+  <script src="plugins/modernizr/modernizr.js"></script>
+  <script src="plugins/SlickSlider/slick/slick.js"></script>
+  <link rel="stylesheet" href="plugins/SlickSlider/slick/slick.css"/>
+  <link rel="stylesheet" href="plugins/assets/stylesheets/cs.animate.css" type="text/css" media="all">
+  <script src="plugins/assets/javascripts/cs.script.js"></script>
+
+  <script src="plugins/fotorama/fotorama.js"></script>
+</head>
+<body>
+
+  <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script type="text/javascript">
+        // Как только будет загружен API и готов DOM, выполняем инициализацию
+        ymaps.ready(init);
+ 
+        function init () {
+            // Создание экземпляра карты и его привязка к контейнеру с
+            // заданным id ("map")
+            var myMap = new ymaps.Map('map', {
+                    // При инициализации карты, обязательно нужно указать
+                    // ее центр и коэффициент масштабирования
+                                        center: [55.7595479,37.7612557],
+                    zoom: 15,  controls: ['zoomControl', 'typeSelector',  'fullscreenControl']
+                });
+               myMap.behaviors.disable('scrollZoom');
+ 
+  myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+            hintContent: '113011 Москва, шоссе Энтузиастов 54/1'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип проекта.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: 'img/mm_20_red.png',
+            // Размеры метки.
+            iconImageSize: [58, 76],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-27, -72]
+        });
+    myMap.geoObjects.add(myPlacemark);
+        }
+    </script>
+
+  <div class="wrapper">
+
+    <div class="content">
+      <header>
+
+        <div class="navbar navbar-inverse navbar-fixed-top hidden-lg hidden-md hidden-sm">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#"></a>
+
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                <span class="sr-only">Открыть</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="responsive-menu">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="#">Каталог</a>
+                </li>
+                <li>
+                  <a href="#">Видео</a>
+                </li>
+                <li>
+                  <a href="#">О компании</a>
+                </li>
+                <li>
+                  <a href="#">Новости</a>
+                </li>
+                <li>
+                  <a href="#">Контакты</a>
+                </li>
+                <li>
+                  <a href="#">Сотрудничество</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="lgs-hidds hidden-xs">
+          <div class="container">
+
+            <div class="row">
+              <div class="left-abs-area col-sm-4">
+                <a href="#">
+                  <div class="logo">
+                    <img src="img/logo.png" class="img-responsive hvr-pulse" alt=""></div>
+                </a>
+              </div>
+              <div class="col-sm-8">
+                <div class="row">
+
+                  <div class="col-sm-7"></div>
+
+                  <div class="col-sm-5">
+                    <div class="search-nls">
+
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Поиск">
+                        <span class="input-group-btn">
+                          <button class="btn btn-default" type="button"></button>
+                        </span>
+                      </div>
+                      <!-- /input-group --> </div>
+                  </div>
+
+                </div>
+
+                <nav>
+                  <ul>
+                    <li>
+                      <a class="hvr-wobble-vertical" href="#" class="active">Сотрудничество</a>
+                    </li>
+                    <li>
+                      <a class="hvr-wobble-vertical" href="#">Контакты</a>
+                    </li>
+                    <li>
+                      <a class="hvr-wobble-vertical" href="#">Новости</a>
+                    </li>
+                    <li>
+                      <a class="hvr-wobble-vertical" href="#">О компании</a>
+                    </li>
+                    <li>
+                      <a class="hvr-wobble-vertical" href="#">Видео</a>
+                    </li>
+                    <li>
+                      <a class="hvr-wobble-vertical" href="#">Каталог</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="second-area contacts-area">
+        <img class="cv2 wow fadeInLeft hidden-md hidden-xs hidden-sm" data-wow-delay="0.1s" src="img/cv2.png" alt="">
+        <img class="cv3 wow fadeInRight hidden-md hidden-xs hidden-sm"  data-wow-delay="0.1s" src="img/cv3.png" src="img/cv3.png" alt="">
+
+        <div class="container conts">
+
+          <h2>Контакты</h2>
+
+          <div class="row rs-pan">
+            <div class="col-sm-4">
+              <p class="pvls">+7 904 543 131</p>
+            </div>
+
+            <div class="col-sm-4">
+              <a href="mailto:info@sluban.ru">info@sluban.ru</a>
+            </div>
+
+            <div class="col-sm-4">
+              <p class="pvls2">
+                113011 Москва,
+                <br>шоссе Энтузиастов 54/1</p>
+            </div>
+
+          </div>
+
+          <div id="map"></div>
+
+        </div>
+        <div class="container psv-area">
+           <h3>Напишите нам</h3>
+           <form action="">
+           <div class="form-row row">
+              <div class="col-md-2 col-sm-4 hidden-xs">
+                <div class="sv1">Имя и Фамилия</div>
+                <div class="sv1">Эл. почта</div>
+                <div class="sv1">Текст</div>
+              </div>
+           <div class="col-md-10 col-sm-8">
+             <div class="mx-input">
+               <label for="" class="hidden-sm hidden-md hidden-lg">Имя и Фамилия</label>
+               <input type="text">
+             </div>
+             <div class="mx-input">
+  <label for="" class="hidden-sm hidden-md hidden-lg">Эл. почта</label>
+               <input type="text">
+           
+             </div>
+             <div class="mx-text">
+              <label for="" class="hidden-sm hidden-md hidden-lg">Текст</label>
+               <textarea name="" id="" cols="30" rows="10"></textarea>
+               
+             </div>
+
+             <div class="btn-area-form">
+             <button class="hvr-buzz-out">Отправить</button> Ctrl + Enter
+           </div>
+
+
+           </div>
+           
+           </div>
+          </form>
+        </div>
+      </section>
+
+    </div>
+
+    <div class="footer">
+
+      <ul class="lego-heroes">
+        <li  class="hidden-xs">
+          <img class="hvr-pulse" src="img/f1.png" class="img-responsive"></li>
+        <li>
+          <img class="hvr-pulse" src="img/f2.png" class="img-responsive"></li>
+        <li class=" hidden-sm hidden-xs">
+          <img class="hvr-pulse" src="img/f3.png" class="img-responsive"></li>
+        <li  class=" hidden-sm hidden-xs">
+          <img class="hvr-pulse" src="img/f4.png" class="img-responsive"></li>
+        <li  class="hidden-xs">
+          <img class="hvr-pulse" src="img/f5.png" class="img-responsive"></li>
+        <li>
+          <img class="hvr-pulse" src="img/f6.png" class="img-responsive"></li>
+        <li  class="hidden-xs">
+          <img class="hvr-pulse" src="img/f7.png" class="img-responsive"></li>
+        <li>
+          <img class="hvr-pulse" src="img/f8.png" class="img-responsive"></li>
+        <li>
+          <img class="hvr-pulse" src="img/f9.png" class="img-responsive"></li>
+        <li>
+          <img class="hvr-pulse" src="img/f10.png" class="img-responsive"></li>
+        <li  class="hidden-xs">
+          <img class="hvr-pulse" src="img/f11.png" class="img-responsive"></li>
+        <li  class="hidden-xs">
+          <img class="hvr-pulse" src="img/f12.png" class="img-responsive"></li>
+        <li class="hidden-md hidden-sm hidden-xs">
+          <img class="hvr-pulse" src="img/f13.png" class="img-responsive"></li>
+
+      </ul>
+
+      <img src="img/rl1.png" class="img-responsive rl1 wow fadeInLeft"  data-wow-delay="0.1s"   alt="">
+      <img src="img/rl2.png" class="img-responsive rl2 wow fadeInRight"  data-wow-delay="0.1s"  alt="">
+      <div class="container">
+
+        <div class="row">
+          <div class="left-abs-area col-sm-4">
+            <a href="#">
+              <div class="logo">
+                <img src="img/logo.png" class="img-responsive hvr-pulse" alt=""></div>
+            </a>
+          </div>
+          <div class="col-sm-8">
+
+            <nav>
+              <ul>
+                <li>
+                  <a class="hvr-wobble-vertical" href="#">Сотрудничество</a>
+                </li>
+                <li>
+                  <a class="hvr-wobble-vertical" href="#">Контакты</a>
+                </li>
+                <li>
+                  <a class="hvr-wobble-vertical" href="#">Новости</a>
+                </li>
+                <li>
+                  <a class="hvr-wobble-vertical" href="#">О компании</a>
+                </li>
+                <li>
+                  <a class="hvr-wobble-vertical" href="#">Видео</a>
+                </li>
+                <li>
+                  <a class="hvr-wobble-vertical" href="#">Каталог</a>
+                </li>
+              </ul>
+            </nav>
+
+            <a class="bel-lk" href="#">Создание сайта Белый кот</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>
