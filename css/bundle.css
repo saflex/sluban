@@ -7,8 +7,5 @@
 @import "reset.css";
 @import "style.css";
 @import "media.css";
-/* Стили для шрифтов */
-@import "../fonts/GothamPro/GothamPro-Bold/stylesheets.css";
-@import "../fonts/GothamPro/GothaProLig/stylesheets.css";
-@import "../fonts/GothamPro/GothamPro-Medium/stylesheets.css";
+/* Основной шрифт */
 @import "../fonts/Open-Sans/stylesheets.css";

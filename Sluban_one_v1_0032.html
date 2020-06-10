@@ -1,651 +1,590 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta charset="UTF-8">
-  <title>html</title>
-  <link href="plugins/fotorama/fotorama.css" rel="stylesheet">
-  <link href="css/bundle.css" rel="stylesheet" media="screen">
-  <script src="http://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="plugins/Bootstrap/bootstrap.js"></script>
-  <script src="plugins/modernizr/modernizr.js"></script>
-  <script src="plugins/SlickSlider/slick/slick.js"></script>
-  <link rel="stylesheet" href="plugins/SlickSlider/slick/slick.css"/>
-  <link rel="stylesheet" href="plugins/assets/stylesheets/cs.animate.css" type="text/css" media="all">
-  <script src="plugins/assets/javascripts/cs.script.js"></script>
-
-  <script src="plugins/fotorama/fotorama.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>html</title>
+    <link href="plugins/fotorama/fotorama.css" rel="stylesheet">
+    <link href="css/bundle.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="plugins/Bootstrap/bootstrap.js"></script>
+    <script src="plugins/modernizr/modernizr.js"></script>
+    <script src="plugins/SlickSlider/slick/slick.js"></script>
+    <link rel="stylesheet" href="plugins/SlickSlider/slick/slick.css" />
+    <link rel="stylesheet" href="plugins/assets/stylesheets/cs.animate.css" type="text/css" media="all">
+    <script src="plugins/assets/javascripts/cs.script.js"></script>
+    <script src="plugins/fotorama/fotorama.js"></script>
 </head>
+
 <body>
-
-  <div class="wrapper">
-
-    <div class="content">
-      <header>
-
-        <div class="navbar navbar-inverse navbar-fixed-top hidden-lg hidden-md hidden-sm">
-          <div class="container">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="#"></a>
-
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-                <span class="sr-only">Открыть</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="responsive-menu">
-              <ul class="nav navbar-nav">
-                <li>
-                  <a href="#">Каталог</a>
-                </li>
-                <li>
-                  <a href="#">Видео</a>
-                </li>
-                <li>
-                  <a href="#">О компании</a>
-                </li>
-                <li>
-                  <a href="#">Новости</a>
-                </li>
-                <li>
-                  <a href="#">Контакты</a>
-                </li>
-                <li>
-                  <a href="#">Сотрудничество</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+    <div class="wrapper">
+        <div class="content">
+            <header>
+                <div class="navbar navbar-inverse navbar-fixed-top hidden-lg hidden-md hidden-sm">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#"></a>
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                                <span class="sr-only">Открыть</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="responsive-menu">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="#">Каталог</a>
+                                </li>
+                                <li>
+                                    <a href="#">Видео</a>
+                                </li>
+                                <li>
+                                    <a href="#">О компании</a>
+                                </li>
+                                <li>
+                                    <a href="#">Новости</a>
+                                </li>
+                                <li>
+                                    <a href="#">Контакты</a>
+                                </li>
+                                <li>
+                                    <a href="#">Сотрудничество</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="lgs-hidds hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="left-abs-area col-sm-4">
+                                <a href="#">
+                                    <div class="logo">
+                                        <img src="img/logo.png" class="img-responsive hvr-pulse" alt=""></div>
+                                </a>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="row">
+                                    <div class="col-sm-7"></div>
+                                    <div class="col-sm-5">
+                                        <div class="search-nls">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Поиск">
+                                                <span class="input-group-btn">
+                                                    <button class="btn btn-default" type="button"></button>
+                                                </span>
+                                            </div>
+                                            <!-- /input-group -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a class="hvr-wobble-vertical" href="#" class="active">Сотрудничество</a>
+                                        </li>
+                                        <li>
+                                            <a class="hvr-wobble-vertical" href="#">Контакты</a>
+                                        </li>
+                                        <li>
+                                            <a class="hvr-wobble-vertical" href="#">Новости</a>
+                                        </li>
+                                        <li>
+                                            <a class="hvr-wobble-vertical" href="#">О компании</a>
+                                        </li>
+                                        <li>
+                                            <a class="hvr-wobble-vertical" href="#">Видео</a>
+                                        </li>
+                                        <li>
+                                            <a class="hvr-wobble-vertical" href="#">Каталог</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="second-area">
+                <img class="cv2 wow fadeInLeft hidden-md hidden-xs hidden-sm" data-wow-delay="0.1s" src="img/cv2.png" alt="">
+                <img class="cv3 wow fadeInRight hidden-md hidden-xs hidden-sm" data-wow-delay="0.1s" src="img/cv3.png" src="img/cv3.png" alt="">
+                <div class="container">
+                    <div class="paggs">
+                        <a href="#">← Серии</a>
+                        ← Серия «Сухопутные войска 2»
+                    </div>
+                    <h2>Тяжелый транспортер</h2>
+                    <div class="slider-ns">
+                        <div class="col-lg-7 col-md-7 col-sm-6  hidden-xs hidden-sm hidden-md">
+                            <div class="slider slider-for">
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr" alt=""></div>
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr" alt=""></div>
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr" alt=""></div>
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr" alt=""></div>
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr" alt=""></div>
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr" alt=""></div>
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr" alt=""></div>
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr" alt=""></div>
+                            </div>
+                            <div class="slider slider-nav">
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" alt=""></div>
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" alt=""></div>
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" alt=""></div>
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" alt=""></div>
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" alt=""></div>
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" alt=""></div>
+                                <div>
+                                    <img src="img/mls.jpg" class="img-responsive" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="fotorama hidden-lg" data-thumbmargin="10" data-max-width="100%" data-nav="thumbs" data-thumbborderwidth="4">
+                            <img class="img-responsive" src="img/mls.jpg">
+                            <img class="img-responsive" src="img/mls.jpg">
+                            <img class="img-responsive" src="img/mls.jpg">
+                            <img class="img-responsive" src="img/mls.jpg">
+                            <img class="img-responsive" src="img/mls.jpg"> </div>
+                    </div>
+                    <div class="nab-section">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p>
+                                    Огневая мощь этого танка просто поражает. Он с лёгкостью способен уничтожить оборонительные сооружения и тяжёлую артиллерию противника перед тем, как солдаты пойдут в наступление. Огневая мощь этого танка просто поражает. Он с лёгкостью способен уничтожить оборонительные сооружения и тяжёлую артиллерию противника перед тем, как солдаты пойдут в наступление.
+                                </p>
+                                <p>
+                                </p>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="table-nv">
+                                    <div class="tb50">
+                                        <p><strong>Артикул</strong><span class="smphr"></span></p>
+                                        <p><strong>Деталей</strong><span class="smphr"></span></p>
+                                        <p><strong>Персонажи</strong><span class="smphr"></span></p>
+                                        <p><strong>Возраст</strong><span class="smphr"></span></p>
+                                        <p><strong>Сложность</strong><span class="smphr"></span></p>
+                                        <p><strong>Размер</strong><span class="smphr"></span></p>
+                                        <p><strong>Вес</strong><span class="smphr"></span></p>
+                                    </div>
+                                    <div class="tb50">
+                                        <p>МB-2414</p>
+                                        <p>306</p>
+                                        <p>4</p>
+                                        <p>6+</p>
+                                        <p>Легко</p>
+                                        <p>33х28,5х6,7</p>
+                                        <p>730 г.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nr no-slk"></div>
+                    <section class="pod-slider2">
+                        <div class="containers">
+                            <div class="">
+                                <div class="col-sm-12s">
+                                    <h4>Другие наборы</h4>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="row">
+                                    <div class="slider single-items2">
+                                        <div>
+                                            <div class="pat-str">
+                                                <div class="cl-block">
+                                                    <div class="sl1"></div>
+                                                    <img class="svs-1 img-responsive" src="img/sv1.png" alt="">
+                                                    <a href="">
+                                                        <div class="sv-block">
+                                                            <h5>Патрульный вертолет</h5>
+                                                            <p>M38-B1800</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="pat-str">
+                                                <div class="cl-block">
+                                                    <div class="sl2"></div>
+                                                    <img class="svs-2 img-responsive" src="img/sv2.png" alt="">
+                                                    <a href="">
+                                                        <div class="sv-block">
+                                                            <h5>Пиратская территория</h5>
+                                                            <p>M38-B0278</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="pat-str">
+                                                <div class="cl-block">
+                                                    <img class="svs-3 img-responsive" src="img/sv3.png" alt="">
+                                                    <a href="">
+                                                        <div class="sv-block">
+                                                            <h5>Пожарные—спасатели машина</h5>
+                                                            <p>241 деталей, от 3 лет</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="pat-str">
+                                                <div class="cl-block">
+                                                    <div class="sl3"></div>
+                                                    <img class="svs-4 img-responsive" src="img/sv4.png" alt="">
+                                                    <a href="">
+                                                        <div class="sv-block">
+                                                            <h5>Страшные пираты — остров сокровищ</h5>
+                                                            <p>241 деталей, от 3 лет</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6"></div>
+                                <div class="col-sm-6"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
         </div>
-
-        <div class="lgs-hidds hidden-xs">
-          <div class="container">
-
-            <div class="row">
-              <div class="left-abs-area col-sm-4">
-                <a href="#">
-                  <div class="logo">
-                    <img src="img/logo.png" class="img-responsive hvr-pulse" alt=""></div>
-                </a>
-              </div>
-              <div class="col-sm-8">
+        <div class="footer">
+            <ul class="lego-heroes">
+                <li class="hidden-xs">
+                    <img class="hvr-pulse" src="img/f1.png" class="img-responsive"></li>
+                <li>
+                    <img class="hvr-pulse" src="img/f2.png" class="img-responsive"></li>
+                <li class=" hidden-sm hidden-xs">
+                    <img class="hvr-pulse" src="img/f3.png" class="img-responsive"></li>
+                <li class=" hidden-sm hidden-xs">
+                    <img class="hvr-pulse" src="img/f4.png" class="img-responsive"></li>
+                <li class="hidden-xs">
+                    <img class="hvr-pulse" src="img/f5.png" class="img-responsive"></li>
+                <li>
+                    <img class="hvr-pulse" src="img/f6.png" class="img-responsive"></li>
+                <li class="hidden-xs">
+                    <img class="hvr-pulse" src="img/f7.png" class="img-responsive"></li>
+                <li>
+                    <img class="hvr-pulse" src="img/f8.png" class="img-responsive"></li>
+                <li>
+                    <img class="hvr-pulse" src="img/f9.png" class="img-responsive"></li>
+                <li>
+                    <img class="hvr-pulse" src="img/f10.png" class="img-responsive"></li>
+                <li class="hidden-xs">
+                    <img class="hvr-pulse" src="img/f11.png" class="img-responsive"></li>
+                <li class="hidden-xs">
+                    <img class="hvr-pulse" src="img/f12.png" class="img-responsive"></li>
+                <li class="hidden-md hidden-sm hidden-xs">
+                    <img class="hvr-pulse" src="img/f13.png" class="img-responsive"></li>
+            </ul>
+            <img src="img/rl1.png" class="img-responsive rl1 wow fadeInLeft" data-wow-delay="0.1s" alt="">
+            <img src="img/rl2.png" class="img-responsive rl2 wow fadeInRight" data-wow-delay="0.1s" alt="">
+            <div class="container">
                 <div class="row">
-
-                  <div class="col-sm-7"></div>
-
-                  <div class="col-sm-5">
-                    <div class="search-nls">
-
-                      <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Поиск">
-                        <span class="input-group-btn">
-                          <button class="btn btn-default" type="button"></button>
-                        </span>
-                      </div>
-                      <!-- /input-group --> </div>
-                  </div>
-
+                    <div class="left-abs-area col-sm-4">
+                        <a href="#">
+                            <div class="logo">
+                                <img src="img/logo.png" class="img-responsive hvr-pulse" alt=""></div>
+                        </a>
+                    </div>
+                    <div class="col-sm-8">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a class="hvr-wobble-vertical" href="#">Сотрудничество</a>
+                                </li>
+                                <li>
+                                    <a class="hvr-wobble-vertical" href="#">Контакты</a>
+                                </li>
+                                <li>
+                                    <a class="hvr-wobble-vertical" href="#">Новости</a>
+                                </li>
+                                <li>
+                                    <a class="hvr-wobble-vertical" href="#">О компании</a>
+                                </li>
+                                <li>
+                                    <a class="hvr-wobble-vertical" href="#">Видео</a>
+                                </li>
+                                <li>
+                                    <a class="hvr-wobble-vertical" href="#">Каталог</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a class="bel-lk" href="#">Создание сайта Белый кот</a>
+                    </div>
                 </div>
-
-                <nav>
-                  <ul>
-                    <li>
-                      <a class="hvr-wobble-vertical" href="#" class="active">Сотрудничество</a>
-                    </li>
-                    <li>
-                      <a class="hvr-wobble-vertical" href="#">Контакты</a>
-                    </li>
-                    <li>
-                      <a class="hvr-wobble-vertical" href="#">Новости</a>
-                    </li>
-                    <li>
-                      <a class="hvr-wobble-vertical" href="#">О компании</a>
-                    </li>
-                    <li>
-                      <a class="hvr-wobble-vertical" href="#">Видео</a>
-                    </li>
-                    <li>
-                      <a class="hvr-wobble-vertical" href="#">Каталог</a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
             </div>
-          </div>
         </div>
-      </header>
-
-      <section class="second-area">
-         <img class="cv2 wow fadeInLeft hidden-md hidden-xs hidden-sm" data-wow-delay="0.1s" src="img/cv2.png" alt="">
-          <img class="cv3 wow fadeInRight hidden-md hidden-xs hidden-sm"  data-wow-delay="0.1s" src="img/cv3.png" src="img/cv3.png" alt="">
-        <div class="container">
-          <div class="paggs">
-            <a href="#">← Серии</a>
-            ← Серия «Сухопутные войска 2»
-          </div>
-          <h2>Тяжелый транспортер</h2>
-          <div class="slider-ns">
-          
-          
-          
-          
-            
-  <div class="col-lg-7 col-md-7 col-sm-6  hidden-xs hidden-sm hidden-md">
-						<div class="slider slider-for">
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr"  alt=""></div>
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr"  alt=""></div>
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr"  alt=""></div>
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr"  alt=""></div>
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr"  alt=""></div>
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr"  alt=""></div>
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr"  alt=""></div>
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" data-toggle="modal" data-target="#img-pr"  alt=""></div>
-
-						</div>
-
-						<div class="slider slider-nav">
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" alt=""></div>
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" alt=""></div>
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" alt=""></div>
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" alt=""></div>
-
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" alt=""></div>
-
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" alt=""></div>
-
-							<div>
-								<img src="img/mls.jpg" class="img-responsive" alt=""></div>
-
-						</div>
-					</div>
-          
-          
-              
-                <div class="fotorama hidden-lg" data-thumbmargin="10"  data-max-width="100%" data-nav="thumbs" data-thumbborderwidth="4">
-              <img class="img-responsive"  src="img/mls.jpg">
-              <img class="img-responsive"  src="img/mls.jpg">
-              <img class="img-responsive"  src="img/mls.jpg">
-              <img class="img-responsive"   src="img/mls.jpg">
-              <img class="img-responsive"   src="img/mls.jpg"> </div>
-          </div>
-
-          <div class="nab-section">
-            <div class="row">
-              <div class="col-sm-8">
-                <p>
-                  Огневая мощь этого танка просто поражает. Он с лёгкостью способен уничтожить оборонительные сооружения и тяжёлую артиллерию противника перед тем, как солдаты пойдут в наступление. Огневая мощь этого танка просто поражает. Он с лёгкостью способен уничтожить оборонительные сооружения и тяжёлую артиллерию противника перед тем, как солдаты пойдут в наступление.
-                </p>
-                <p>
-                  
-                </p>
-              </div>
-              <div class="col-sm-4">
-                
-
-
-  <div class="table-nv">
-    <div class="tb50">
-      <p><strong>Артикул</strong><span class="smphr"></span></p>
-      <p><strong>Деталей</strong><span class="smphr"></span></p>
-      <p><strong>Персонажи</strong><span class="smphr"></span></p>
-      <p><strong>Возраст</strong><span class="smphr"></span></p>
-      <p><strong>Сложность</strong><span class="smphr"></span></p>
-      <p><strong>Размер</strong><span class="smphr"></span></p>
-      <p><strong>Вес</strong><span class="smphr"></span></p>
     </div>
-     <div class="tb50">
-       <p>МB-2414</p>
-       <p>306</p>
-       <p>4</p>
-       <p>6+</p>
-       <p>Легко</p>
-       <p>33х28,5х6,7</p>
-       <p>730 г.</p>
-     </div>
-  </div>
-                
-
-              </div>
-            </div>
-          </div>
-
-          <div class="nr no-slk"></div>
-
-          <section class="pod-slider2">
-
-            <div class="containers">
-              <div class="">
-                <div class="col-sm-12s">
-                  <h4>Другие наборы</h4>
-                </div>
-                <div class="clearfix"></div>
-                <div class="row">
-                  <div class="slider single-items2">
-
-                    <div>
-                      <div class="pat-str">
-                        <div class="cl-block">
-                          <div class="sl1"></div>
-                          <img class="svs-1 img-responsive" src="img/sv1.png" alt="">
-                          <a href="">
-                            <div class="sv-block">
-                              <h5>Патрульный вертолет</h5>
-                              <p>M38-B1800</p>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div>
-                      <div class="pat-str">
-                        <div class="cl-block">
-                          <div class="sl2"></div>
-                          <img class="svs-2 img-responsive" src="img/sv2.png" alt="">
-                          <a href="">
-                            <div class="sv-block">
-                              <h5>Пиратская территория</h5>
-                              <p>M38-B0278</p>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div>
-                      <div class="pat-str">
-                        <div class="cl-block">
-
-                          <img class="svs-3 img-responsive" src="img/sv3.png" alt="">
-                          <a href="">
-                            <div class="sv-block">
-                              <h5>Пожарные—спасатели машина</h5>
-                              <p>241 деталей, от 3 лет</p>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div>
-                      <div class="pat-str">
-                        <div class="cl-block">
-                          <div class="sl3"></div>
-                          <img class="svs-4 img-responsive" src="img/sv4.png" alt="">
-                          <a href="">
-                            <div class="sv-block">
-                              <h5>Страшные пираты — остров сокровищ</h5>
-                              <p>241 деталей, от 3 лет</p>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6"></div>
-                <div class="col-sm-6"></div>
-              </div>
-            </div>
-          </section>
-
-        </div>
-      </section>
-
-    </div>
-
-    <div class="footer">
-
-      <ul class="lego-heroes">
-        <li  class="hidden-xs">
-          <img class="hvr-pulse" src="img/f1.png" class="img-responsive"></li>
-        <li>
-          <img class="hvr-pulse" src="img/f2.png" class="img-responsive"></li>
-        <li class=" hidden-sm hidden-xs">
-          <img class="hvr-pulse" src="img/f3.png" class="img-responsive"></li>
-        <li  class=" hidden-sm hidden-xs">
-          <img class="hvr-pulse" src="img/f4.png" class="img-responsive"></li>
-        <li  class="hidden-xs">
-          <img class="hvr-pulse" src="img/f5.png" class="img-responsive"></li>
-        <li>
-          <img class="hvr-pulse" src="img/f6.png" class="img-responsive"></li>
-        <li  class="hidden-xs">
-          <img class="hvr-pulse" src="img/f7.png" class="img-responsive"></li>
-        <li>
-          <img class="hvr-pulse" src="img/f8.png" class="img-responsive"></li>
-        <li>
-          <img class="hvr-pulse" src="img/f9.png" class="img-responsive"></li>
-        <li>
-          <img class="hvr-pulse" src="img/f10.png" class="img-responsive"></li>
-        <li  class="hidden-xs">
-          <img class="hvr-pulse" src="img/f11.png" class="img-responsive"></li>
-        <li  class="hidden-xs">
-          <img class="hvr-pulse" src="img/f12.png" class="img-responsive"></li>
-        <li class="hidden-md hidden-sm hidden-xs">
-          <img class="hvr-pulse" src="img/f13.png" class="img-responsive"></li>
-
-      </ul>
-
-      <img src="img/rl1.png" class="img-responsive rl1 wow fadeInLeft"  data-wow-delay="0.1s"   alt="">
-      <img src="img/rl2.png" class="img-responsive rl2 wow fadeInRight"  data-wow-delay="0.1s"  alt="">
-      <div class="container">
-
-        <div class="row">
-          <div class="left-abs-area col-sm-4">
-            <a href="#">
-              <div class="logo">
-                <img src="img/logo.png" class="img-responsive hvr-pulse" alt=""></div>
-            </a>
-          </div>
-          <div class="col-sm-8">
-
-            <nav>
-              <ul>
-                <li>
-                  <a class="hvr-wobble-vertical" href="#">Сотрудничество</a>
-                </li>
-                <li>
-                  <a class="hvr-wobble-vertical" href="#">Контакты</a>
-                </li>
-                <li>
-                  <a class="hvr-wobble-vertical" href="#">Новости</a>
-                </li>
-                <li>
-                  <a class="hvr-wobble-vertical" href="#">О компании</a>
-                </li>
-                <li>
-                  <a class="hvr-wobble-vertical" href="#">Видео</a>
-                </li>
-                <li>
-                  <a class="hvr-wobble-vertical" href="#">Каталог</a>
-                </li>
-              </ul>
-            </nav>
-
-            <a class="bel-lk" href="#">Создание сайта Белый кот</a>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  
-
-
-  <script type="text/javascript" src="js/app.js"></script>
-  
-  <script>
-	 
-
-
-		
-$(document).ready(function() {
-     $('.slider-for').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.slider-nav'
+    <script type="text/javascript" src="js/app.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            vertical: true,
+            asNavFor: '.slider-for',
+            dots: true,
+            focusOnSelect: true,
+            centerMode: false,
+        });
     });
-    $('.slider-nav').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        vertical: true,
-        asNavFor: '.slider-for',
-        dots: true,
-        focusOnSelect: true,
-                centerMode: false,
-    });
-});
+    </script>
+    <style>
+    /* Slider */
+    .slick-slider {
+        position: relative;
 
+        display: block;
 
- 
-  </script>
-  
-  <style>
-	  /* Slider */
-.slick-slider
-{
-    position: relative;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
 
-    display: block;
-
-    -moz-box-sizing: border-box;
-         box-sizing: border-box;
-
-    -webkit-user-select: none;
-       -moz-user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
         -ms-user-select: none;
-            user-select: none;
+        user-select: none;
 
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
+        -webkit-touch-callout: none;
+        -khtml-user-select: none;
+        -ms-touch-action: pan-y;
         touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-}
+        -webkit-tap-highlight-color: transparent;
+    }
 
-.slick-list
-{
-    position: relative;
+    .slick-list {
+        position: relative;
 
-    display: block;
-    overflow: hidden;
+        display: block;
+        overflow: hidden;
 
-    margin: 0;
-    padding: 0;
-}
-.slick-list:focus
-{
-    outline: none;
-}
-.slick-list.dragging
-{
-    cursor: pointer;
-    cursor: hand;
-}
+        margin: 0;
+        padding: 0;
+    }
 
-.slick-slider .slick-track,
-.slick-slider .slick-list
-{
-    -webkit-transform: translate3d(0, 0, 0);
-       -moz-transform: translate3d(0, 0, 0);
+    .slick-list:focus {
+        outline: none;
+    }
+
+    .slick-list.dragging {
+        cursor: pointer;
+        cursor: hand;
+    }
+
+    .slick-slider .slick-track,
+    .slick-slider .slick-list {
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
         -ms-transform: translate3d(0, 0, 0);
-         -o-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-}
+        -o-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 
-.slick-track
-{
-    position: relative;
-    top: 0;
-    left: 0;
+    .slick-track {
+        position: relative;
+        top: 0;
+        left: 0;
 
-    display: block;
-}
-.slick-track:before,
-.slick-track:after
-{
-    display: table;
+        display: block;
+    }
 
-    content: '';
-}
-.slick-track:after
-{
-    clear: both;
-}
-.slick-loading .slick-track
-{
-    visibility: hidden;
-}
+    .slick-track:before,
+    .slick-track:after {
+        display: table;
 
-.slick-slide
-{
-    display: none;
-    float: left;
+        content: '';
+    }
 
-    height: 100%;
-    min-height: 1px;
-}
-[dir='rtl'] .slick-slide
-{
-    float: right;
-}
-.slick-slide img
-{
-    display: block;
-}
-.slick-slide.slick-loading img
-{
-    display: none;
-}
-.slick-slide.dragging img
-{
-    pointer-events: none;
-}
-.slick-initialized .slick-slide
-{
-    display: block;
-}
-.slick-loading .slick-slide
-{
-    visibility: hidden;
-}
-.slick-vertical .slick-slide
-{
-    display: block;
+    .slick-track:after {
+        clear: both;
+    }
 
-    height: auto;
+    .slick-loading .slick-track {
+        visibility: hidden;
+    }
 
-    border: 1px solid transparent;
-}
-.slick-arrow.slick-hidden {
-    display: none;
-}
+    .slick-slide {
+        display: none;
+        float: left;
 
-.slider-nav .slick-track {
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-    right: 0;
-    margin: 0 auto;
-}
+        height: 100%;
+        min-height: 1px;
+    }
+
+    [dir='rtl'] .slick-slide {
+        float: right;
+    }
+
+    .slick-slide img {
+        display: block;
+    }
+
+    .slick-slide.slick-loading img {
+        display: none;
+    }
+
+    .slick-slide.dragging img {
+        pointer-events: none;
+    }
+
+    .slick-initialized .slick-slide {
+        display: block;
+    }
+
+    .slick-loading .slick-slide {
+        visibility: hidden;
+    }
+
+    .slick-vertical .slick-slide {
+        display: block;
+
+        height: auto;
+
+        border: 1px solid transparent;
+    }
+
+    .slick-arrow.slick-hidden {
+        display: none;
+    }
+
+    .slider-nav .slick-track {
+        position: relative;
+        top: 0;
+        left: 0;
+        display: block;
+        right: 0;
+        margin: 0 auto;
+    }
 
 
-.slider-nav .slick-current img {
-    border: 1px solid #979797;
-}
+    .slider-nav .slick-current img {
+        border: 1px solid #979797;
+    }
 
-.slider-nav img {
-    height: 88px;
-    margin: 0 auto;
-    width: 100%;
-    object-fit: cover;
-}
+    .slider-nav img {
+        height: 88px;
+        margin: 0 auto;
+        width: 100%;
+        object-fit: cover;
+    }
 
-.slider-nav img{
-	    border: 1px solid #F4F4F4;
-}
+    .slider-nav img {
+        border: 1px solid #F4F4F4;
+    }
 
-.slider-nav .slick-slide {
-    display: block;
-    padding: 0 6px;
-}
+    .slider-nav .slick-slide {
+        display: block;
+        padding: 0 6px;
+    }
 
-.close-block{
-	clear: both;
-}
+    .close-block {
+        clear: both;
+    }
 
-.slider.slider-nav {
-    margin-top: 14px;
-}
+    .slider.slider-nav {
+        margin-top: 14px;
+    }
 
-.slider-nav .slick-track {
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-    right: 0;
-    margin: 0 auto;
-    float: left;
-    margin-left: -6px;
-}
+    .slider-nav .slick-track {
+        position: relative;
+        top: 0;
+        left: 0;
+        display: block;
+        right: 0;
+        margin: 0 auto;
+        float: left;
+        margin-left: -6px;
+    }
 
-body .slider-for img {
-    width: 98.6% !important;
-}
+    body .slider-for img {
+        width: 98.6% !important;
+    }
 
-.slider.slider-nav ul.slick-dots {
-    display: none !important;
-}
+    .slider.slider-nav ul.slick-dots {
+        display: none !important;
+    }
 
-@media screen and (min-width: 1200px) { 
+    @media screen and (min-width: 1200px) {
 
-.slick-vertical {
-    width: 100px;
-    position: absolute;
-    top: 0;
-}
-.slider.slider-nav {
-    margin-top: 0;
-}
+        .slick-vertical {
+            width: 100px;
+            position: absolute;
+            top: 0;
+        }
 
-.slider-nav .slick-slide {
-    display: block;
-    padding: 0 6px;
-    margin-bottom: 17px;
-}
+        .slider.slider-nav {
+            margin-top: 0;
+        }
 
-.slider.slider-for {
-    margin-left: 115px;
-}
-.slider.slider-for {
-    margin-left: 115px;
-    width: 644px;
-}
+        .slider-nav .slick-slide {
+            display: block;
+            padding: 0 6px;
+            margin-bottom: 17px;
+        }
 
-}
+        .slider.slider-for {
+            margin-left: 115px;
+        }
 
-.slider-nav .slick-current img {
-    border: 3px solid #FBC300;
-     border-radius: 20px 0 20px 0;
-}
-.slider-nav button.slick-prev.slick-arrow{
-	display: none !important;
-}
-.slider-nav .slick-slide {
-    display: block;
-    padding: 0 6px;
-    margin-bottom: 13px;
-}
-.slider-ns .col-lg-7.col-md-7.col-sm-6 {
-    padding-left: 0;
-    margin-top: 30px;
-}
-.slick-vertical {
-    width: 137px;
-}
-  </style>
+        .slider.slider-for {
+            margin-left: 115px;
+            width: 644px;
+        }
 
+    }
+
+    .slider-nav .slick-current img {
+        border: 3px solid #FBC300;
+        border-radius: 20px 0 20px 0;
+    }
+
+    .slider-nav button.slick-prev.slick-arrow {
+        display: none !important;
+    }
+
+    .slider-nav .slick-slide {
+        display: block;
+        padding: 0 6px;
+        margin-bottom: 13px;
+    }
+
+    .slider-ns .col-lg-7.col-md-7.col-sm-6 {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .slick-vertical {
+        width: 137px;
+    }
+    </style>
 </body>
+
 </html>

@@ -6,3 +6,11 @@
   height: 134px;
   background: #10389A;
 }
+
+.footer .left-abs-area.col-sm-4 {
+    margin-top: -34px;
+}
+
+.footer nav {
+    margin-top: -14px;
+}
